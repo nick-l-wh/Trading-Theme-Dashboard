@@ -1,6 +1,4 @@
-.venv/
-__pycache__/
-cache/
-data/
-logs/
-legacy_full/
+*
+!*.csv
+!index.html
+!.gitignore
