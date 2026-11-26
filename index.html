@@ -9,7 +9,7 @@ tr.bench td{background:#FFFF00} .rmax{color:#FF0000;background:#FF9999} .rmin{co
 .refhdr{margin:6px 0;font-family:'PMingLiU','新細明體','PingFang HK','Noto Sans CJK TC','Noto Sans TC','Microsoft JhengHei','微軟正黑體','PMingLiU','新細明體',sans-serif} .refsubj{margin:12px 0 2px;font-weight:bold}
 .rocbtn{margin:2px;padding:2px 8px;border:1px solid #888;background:#fff;cursor:pointer;font-family:'PingFang HK','Noto Sans CJK TC','Noto Sans TC','Microsoft JhengHei','微軟正黑體','PMingLiU','新細明體',sans-serif} .rocbtn.on{background:#333;color:#fff}
 </style></head><body><h1>美股動量排名及成份股分析</h1>
-<div class=note>收市價截至 <b>2026年11月24日</b>（美國時間星期二）。頁面生成 2026年11月25日 08:34（香港／台北時間）；數據下載 2026年11月25日 08:34（香港／台北時間）。</div>
+<div class=note>收市價截至 <b>2026年11月24日</b>（美國時間星期二）。頁面生成 2026年11月26日 09:05（香港／台北時間）；數據下載 2026年11月26日 09:05（香港／台北時間）。</div>
 <h2>一、變動率動量排名（每週快照，仿照參考試算表格式）</h2>
 <div class=note>選擇變動率回望期：<button class=rocbtn data-n=21 onclick="showRoc(21)">21日（約1個月）</button> <button class=rocbtn data-n=63 onclick="showRoc(63)">63日（約3個月，預設）</button> <button class=rocbtn data-n=126 onclick="showRoc(126)">126日（約6個月）</button>　參考試算表冇註明用幾多日計算，用雅虎財經數據亦對唔返，所以預設用63日，可自行切換。</div>
 <div class=rocpanel id=roc21 style='display:none'>
@@ -52,7 +52,7 @@ tr.bench td{background:#FFFF00} .rmax{color:#FF0000;background:#FF9999} .rmin{co
 <tr><td>3</td><td><span class=pos>▲1</span></td><td class=l>IEI＊</td><td class=l>3至7年美國國債</td><td>0.681</td><td>0.076</td><td>1.851</td><td>1.702</td><td>1.404</td><td>0.002</td><td>-0.776</td><td>-1.809</td><td>-2.164</td><td>-1.836</td></tr>
 <tr><td>4</td><td><span class=neg>▼1</span></td><td class=l>SHY＊</td><td class=l>1至3年美國國債</td><td>0.423</td><td>0.164</td><td>0.843</td><td>0.740</td><td>0.805</td><td>0.298</td><td>0.027</td><td>-0.427</td><td>-0.728</td><td>-0.703</td></tr>
 <tr><td>5</td><td>＝</td><td class=l>AGG＊</td><td class=l>美國綜合債券</td><td>0.388</td><td>0.020</td><td>2.392</td><td>2.055</td><td>1.422</td><td>-0.635</td><td>-1.171</td><td>-2.329</td><td>-2.462</td><td>-1.561</td></tr>
-<tr><td>6</td><td><span class=neg>▼4</span></td><td class=l>BIL＊</td><td class=l>1至3個月美國國庫券</td><td>0.326</td><td>0.326</td><td>0.326</td><td>0.317</td><td>0.343</td><td>0.332</td><td>0.332</td><td>0.321</td><td>0.295</td><td>0.285</td></tr>
+<tr><td>6</td><td><span class=neg>▼4</span></td><td class=l>BIL＊</td><td class=l>1至3個月美國國庫券</td><td>0.326</td><td>0.326</td><td>0.326</td><td>0.317</td><td>0.343</td><td>0.332</td><td>0.332</td><td>0.321</td><td>0.295</td><td>0.284</td></tr>
 <tr><td>7</td><td>＝</td><td class=l>TLH＊</td><td class=l>10至20年美國國債</td><td>0.227</td><td>-0.085</td><td>4.798</td><td>4.390</td><td>2.530</td><td>-1.433</td><td>-2.620</td><td>-4.404</td><td>-4.132</td><td>-2.155</td></tr>
 <tr><td>8</td><td>＝</td><td class=l>TLT＊</td><td class=l>20年以上美國國債</td><td>0.065</td><td>-0.320</td><td>5.644</td><td>5.315</td><td>2.830</td><td>-1.721</td><td>-3.077</td><td>-5.074</td><td>-4.413</td><td>-1.757</td></tr>
 <tr><td>9</td><td>＝</td><td class=l>LTPZ＊</td><td class=l>15年以上美國抗通脹國債</td><td>-1.468</td><td>-1.394</td><td>5.210</td><td>5.437</td><td>3.054</td><td>-1.963</td><td>-4.947</td><td>-6.536</td><td>-5.505</td><td>-2.669</td></tr>
@@ -175,38 +175,38 @@ document.querySelectorAll('.rocbtn').forEach(b=>b.classList.toggle('on',b.datase
 <div class=note>合格條件（沿用之前嘅領先規則）：1個月及3個月相對 SPY 強度皆正，兼收市企喺向上嘅20日線或50日線之上；舊領先剔除。範圍＝上面美股板塊表除 SPY 外全部代號。最強＝相對 SPY 強度（1個月同3個月平均）最高，而且收市企喺向上嘅50日線之上，每隻基金取頭3隻。1個月＝21個交易日，3個月＝63個交易日；50日線向上＝同10個交易日前比較。</div>
 <h3 class=sub>XLP 必需消費　<span class=note>（基金本身：1個月相對強度 +10.5%，3個月相對強度 +13.1%，距20日線 +1.4% <span class=pos>▲</span>，距50日線 +6.0% <span class=pos>▲</span>）</span></h3>
 <table class=drill><tr><th>名次</th><th class=l>代號</th><th>基金內比重（%）</th><th>1個月相對強度</th><th>3個月相對強度</th><th>距50日線（方向）</th></tr>
-<tr><td>1</td><td class=l><b>DLTR</b></td><td>1.55</td><td class=pos>+29.9%</td><td class=pos>+22.9%</td><td class=pos>+22.4% <span class=pos>▲</span></td></tr>
-<tr><td>2</td><td class=l><b>WMT</b></td><td>11.63</td><td class=pos>+16.1%</td><td class=pos>+32.7%</td><td class=pos>+12.6% <span class=pos>▲</span></td></tr>
-<tr><td>3</td><td class=l><b>PG</b></td><td>7.94</td><td class=pos>+13.9%</td><td class=pos>+25.7%</td><td class=pos>+9.6% <span class=pos>▲</span></td></tr>
+<tr><td>1</td><td class=l><b>DLTR</b></td><td>1.69</td><td class=pos>+29.9%</td><td class=pos>+22.9%</td><td class=pos>+22.4% <span class=pos>▲</span></td></tr>
+<tr><td>2</td><td class=l><b>WMT</b></td><td>11.68</td><td class=pos>+16.1%</td><td class=pos>+32.7%</td><td class=pos>+12.6% <span class=pos>▲</span></td></tr>
+<tr><td>3</td><td class=l><b>COST</b></td><td>9.59</td><td class=pos>+17.9%</td><td class=pos>+23.5%</td><td class=pos>+12.9% <span class=pos>▲</span></td></tr>
 </table>
-<div class=note>持倉來源：道富環球投資（SSGA）官方每日持倉檔（截至2026年11月23日）；頭 25 大持倉之中 24 隻有價格數據；以下持倉冇足夠價格數據，已略過：VYLR。</div>
+<div class=note>持倉來源：道富環球投資（SSGA）官方每日持倉檔（截至2026年11月24日）；頭 25 大持倉之中 24 隻有價格數據；以下持倉冇足夠價格數據，已略過：VYLR。</div>
 <h3 class=sub>XLV 醫療保健　<span class=note>（基金本身：1個月相對強度 +9.1%，3個月相對強度 +12.8%，距20日線 +0.0% <span class=pos>▲</span>，距50日線 +4.3% <span class=pos>▲</span>）</span></h3>
 <table class=drill><tr><th>名次</th><th class=l>代號</th><th>基金內比重（%）</th><th>1個月相對強度</th><th>3個月相對強度</th><th>距50日線（方向）</th></tr>
-<tr><td>1</td><td class=l><b>MRNA</b></td><td>1.21</td><td class=pos>+20.4%</td><td class=pos>+57.9%</td><td class=pos>+7.8% <span class=pos>▲</span></td></tr>
-<tr><td>2</td><td class=l><b>REGN</b></td><td>1.42</td><td class=pos>+28.4%</td><td class=pos>+27.2%</td><td class=pos>+18.0% <span class=pos>▲</span></td></tr>
-<tr><td>3</td><td class=l><b>GILD</b></td><td>3.25</td><td class=pos>+18.4%</td><td class=pos>+27.0%</td><td class=pos>+12.6% <span class=pos>▲</span></td></tr>
+<tr><td>1</td><td class=l><b>MRNA</b></td><td>1.26</td><td class=pos>+20.4%</td><td class=pos>+57.9%</td><td class=pos>+7.8% <span class=pos>▲</span></td></tr>
+<tr><td>2</td><td class=l><b>REGN</b></td><td>1.45</td><td class=pos>+28.4%</td><td class=pos>+27.2%</td><td class=pos>+18.0% <span class=pos>▲</span></td></tr>
+<tr><td>3</td><td class=l><b>GILD</b></td><td>3.30</td><td class=pos>+18.4%</td><td class=pos>+27.0%</td><td class=pos>+12.6% <span class=pos>▲</span></td></tr>
 </table>
-<div class=note>持倉來源：道富環球投資（SSGA）官方每日持倉檔（截至2026年11月23日）；頭 25 大持倉之中 25 隻有價格數據。</div>
+<div class=note>持倉來源：道富環球投資（SSGA）官方每日持倉檔（截至2026年11月24日）；頭 25 大持倉之中 25 隻有價格數據。</div>
 <h3 class=sub>XLY 非必需消費　<span class=note>（基金本身：1個月相對強度 +9.1%，3個月相對強度 +6.6%，距20日線 -0.3% <span class=pos>▲</span>，距50日線 +2.9% <span class=pos>▲</span>）</span></h3>
 <table class=drill><tr><th>名次</th><th class=l>代號</th><th>基金內比重（%）</th><th>1個月相對強度</th><th>3個月相對強度</th><th>距50日線（方向）</th></tr>
-<tr><td>1</td><td class=l><b>LOW</b></td><td>3.29</td><td class=pos>+22.6%</td><td class=pos>+16.5%</td><td class=pos>+13.9% <span class=pos>▲</span></td></tr>
-<tr><td>2</td><td class=l><b>RCL</b></td><td>1.98</td><td class=pos>+19.5%</td><td class=pos>+16.3%</td><td class=pos>+10.3% <span class=pos>▲</span></td></tr>
-<tr><td>3</td><td class=l><b>MAR</b></td><td>2.31</td><td class=pos>+11.7%</td><td class=pos>+22.2%</td><td class=pos>+7.8% <span class=pos>▲</span></td></tr>
+<tr><td>1</td><td class=l><b>LOW</b></td><td>3.34</td><td class=pos>+22.6%</td><td class=pos>+16.5%</td><td class=pos>+13.9% <span class=pos>▲</span></td></tr>
+<tr><td>2</td><td class=l><b>RCL</b></td><td>2.04</td><td class=pos>+19.5%</td><td class=pos>+16.3%</td><td class=pos>+10.3% <span class=pos>▲</span></td></tr>
+<tr><td>3</td><td class=l><b>MAR</b></td><td>2.30</td><td class=pos>+11.7%</td><td class=pos>+22.2%</td><td class=pos>+7.8% <span class=pos>▲</span></td></tr>
 </table>
-<div class=note>持倉來源：道富環球投資（SSGA）官方每日持倉檔（截至2026年11月23日）；頭 25 大持倉之中 25 隻有價格數據。</div>
+<div class=note>持倉來源：道富環球投資（SSGA）官方每日持倉檔（截至2026年11月24日）；頭 25 大持倉之中 25 隻有價格數據。</div>
 <h3 class=sub>XLU 公用事業　<span class=note>（基金本身：1個月相對強度 +8.1%，3個月相對強度 +6.4%，距20日線 -0.1% <span class=pos>▲</span>，距50日線 +3.3% <span class=pos>▲</span>）</span></h3>
 <table class=drill><tr><th>名次</th><th class=l>代號</th><th>基金內比重（%）</th><th>1個月相對強度</th><th>3個月相對強度</th><th>距50日線（方向）</th></tr>
-<tr><td>1</td><td class=l><b>WEC</b></td><td>2.81</td><td class=pos>+13.3%</td><td class=pos>+16.7%</td><td class=pos>+8.5% <span class=pos>▲</span></td></tr>
-<tr><td>2</td><td class=l><b>AWK</b></td><td>2.15</td><td class=pos>+12.9%</td><td class=pos>+16.0%</td><td class=pos>+8.6% <span class=pos>▲</span></td></tr>
-<tr><td>3</td><td class=l><b>ED</b></td><td>3.22</td><td class=pos>+10.4%</td><td class=pos>+17.4%</td><td class=pos>+7.6% <span class=pos>▲</span></td></tr>
+<tr><td>1</td><td class=l><b>WEC</b></td><td>2.82</td><td class=pos>+13.3%</td><td class=pos>+16.7%</td><td class=pos>+8.5% <span class=pos>▲</span></td></tr>
+<tr><td>2</td><td class=l><b>AWK</b></td><td>2.19</td><td class=pos>+12.9%</td><td class=pos>+16.0%</td><td class=pos>+8.6% <span class=pos>▲</span></td></tr>
+<tr><td>3</td><td class=l><b>ED</b></td><td>3.24</td><td class=pos>+10.4%</td><td class=pos>+17.4%</td><td class=pos>+7.6% <span class=pos>▲</span></td></tr>
 </table>
-<div class=note>持倉來源：道富環球投資（SSGA）官方每日持倉檔（截至2026年11月23日）；頭 25 大持倉之中 25 隻有價格數據。</div>
+<div class=note>持倉來源：道富環球投資（SSGA）官方每日持倉檔（截至2026年11月24日）；頭 25 大持倉之中 25 隻有價格數據。</div>
 <h3 class=sub>VNQ 房地產信託　<span class=note>（基金本身：1個月相對強度 +7.8%，3個月相對強度 +2.9%，距20日線 -0.5% <span class=pos>▲</span>，距50日線 +2.1% <span class=pos>▲</span>）</span></h3>
 <table class=drill><tr><th>名次</th><th class=l>代號</th><th>基金內比重（%）</th><th>1個月相對強度</th><th>3個月相對強度</th><th>距50日線（方向）</th></tr>
 <tr><td>1</td><td class=l><b>EXR</b></td><td>1.74</td><td class=pos>+16.9%</td><td class=pos>+17.5%</td><td class=pos>+10.1% <span class=pos>▲</span></td></tr>
 <tr><td>2</td><td class=l><b>KIM</b></td><td>0.90</td><td class=pos>+15.1%</td><td class=pos>+14.5%</td><td class=pos>+8.9% <span class=pos>▲</span></td></tr>
 <tr><td>3</td><td class=l><b>SPG</b></td><td>3.84</td><td class=pos>+14.1%</td><td class=pos>+12.9%</td><td class=pos>+7.8% <span class=pos>▲</span></td></tr>
 </table>
-<div class=note>持倉來源：stockanalysis.com 網站（2026年11月25日讀取；發行商官方檔案未能自動下載）；頭 25 大持倉之中 25 隻有價格數據。</div>
+<div class=note>持倉來源：stockanalysis.com 網站（2026年11月26日讀取；發行商官方檔案未能自動下載）；頭 25 大持倉之中 25 隻有價格數據。</div>
 <div class=note>唔合格板塊：SMH 半導體（落後）、XLK 科技（落後）、IGV 軟件（落後）、QQQ 納指100（落後）、XLE 能源（舊領先）、XLC 通訊服務（矛盾）、XLF 金融（矛盾）、XLI 工業（矛盾）、XLB 原材料（矛盾）。</div>
 </body></html>
